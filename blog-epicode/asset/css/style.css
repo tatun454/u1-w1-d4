@@ -1,0 +1,225 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff url("../image/sfondo.png") no-repeat center top;
+  background-size: cover;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+header {
+  background: #2396bc;
+  color: #181b2a;
+  text-align: center;
+  padding: 2.5rem 1rem;
+  box-shadow: 0 4px 24px rgba(24, 27, 42, 0.1);
+  max-width: 450px;
+  width: 90vw;
+  margin: 2.5rem auto 2rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header img {
+  margin-bottom: 1.2rem;
+
+  height: auto;
+}
+
+header h3 {
+  margin: 0 0 1.2rem 0;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 0.7rem;
+}
+
+header ul li {
+  margin: 0.3rem 0;
+}
+
+header ul a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 2rem;
+  transition: color 0.2s;
+}
+
+header ul a:hover {
+  color: #7a3ff6;
+}
+.content-box {
+  background: #ffffff;
+
+  box-shadow: 0 4px 24px rgba(24, 27, 42, 0.1);
+  margin: auto;
+  max-width: 500px;
+  width: 100%;
+  overflow: hidden;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+main {
+  margin: auto;
+}
+
+article h2 {
+  font-size: 1.5rem;
+  margin: 1.2rem 0 0.5rem 0;
+  font-weight: 700;
+  text-align: center;
+}
+
+small {
+  font-size: 0.9rem;
+  color: #807b7b88;
+}
+article p,
+article ul,
+article ol {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+article ul,
+article ol {
+  padding-left: 1.2rem;
+}
+
+article li {
+  margin-bottom: 0.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  background: #f5f5fa;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+caption {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #7a3ff6;
+}
+
+th,
+td {
+  padding: 0.6rem 0.4rem;
+  text-align: center;
+}
+
+th {
+  background: #7a3ff6;
+  color: #fff;
+  font-weight: 600;
+}
+
+tbody tr:nth-child(even) {
+  background: #ece9f7;
+}
+
+/* FORM */
+form {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  background: #ece9f7;
+  padding: 1rem;
+  border-radius: 8px;
+  align-items: center;
+}
+
+input[type="email"] {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button[type="submit"] {
+  background: #7a3ff6;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background: #5e2bbf;
+}
+
+aside {
+  background: #f5f5fa;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+aside h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 2rem 0 1.2rem 0;
+  text-align: center;
+}
+aside div {
+  background: #fff;
+  border: 1px solid #ece9f7;
+  border-radius: 6px;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+aside a {
+  color: #0465a6;
+  font-weight: 600;
+}
+
+aside p {
+  margin: 0.2rem 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+footer {
+  background: #003c50;
+  color: #ffffff;
+  text-align: center;
+  padding: 2.5rem 1rem;
+
+  box-shadow: 0 4px 24px rgba(24, 27, 42, 0.1);
+  max-width: 450px;
+  width: 90vw;
+  margin: 2.5rem auto 2rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer a {
+  color: #d44080;
+  text-decoration: underline;
+}
